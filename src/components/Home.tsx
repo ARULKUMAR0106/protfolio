@@ -11,7 +11,7 @@ const Home: React.FC = () => (
     </div>
     <div className="profile-image">
       {/* Add your profile image here */}
-      <img src="/src/assets/images/Myimage.jpg" alt="Profile" style={{ width: "100%", height: "100%" }} />
+      <img src="../src/assets/images/Myimage.jpg" alt="Profile" style={{ width: "100%", height: "100%" }} />
     </div>
   </div>
 );
