@@ -8,11 +8,26 @@ const Home: React.FC = () => (
       <p>
         Delivering robust solutions with a passion for elegant and efficient code.
       </p>
+<div className="flex gap-4" >
+{/* <a
+  href="Resume/ARULKUMAR.pdf"  
+  target="_blank"
+  
+  className="bg-green-500 text-white px-4 py-2 rounded"
+>
+  View CV
+</a> */}
+ <br/>
+  <a id="resume-link" 
+    href="Resume/ARULKUMAR.pdf" 
+    download="ARULKUMAR_CV.pdf" 
+    className="bg-green-300 text-white px-4 py-2 rounded"
+  >
+    Download CV
+  </a>
+</div>
     </div>
-    <div className="profile-image">
-      {/* Add your profile image here */}
-      <img src="../src/assets/images/MyImage.jpg" alt="Profile" style={{ width: "100%", height: "100%" }} />
-    </div>
+   
   </div>
 );
 

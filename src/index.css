@@ -218,3 +218,9 @@ section {
   z-index: 999;
   transition: top 0.3s ease-in-out;
 }
+#resume-link{
+  color:#24272a ;
+}
+a{
+  color:#4f7aa5 ;
+}
